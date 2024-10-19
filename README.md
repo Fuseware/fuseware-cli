@@ -1,5 +1,10 @@
 # Welcome to `fuseware-cli` software
 
+<p align="center">
+  <img width="570" alt="fuseware-cli" src="https://github.com/user-attachments/assets/3174649b-0abc-4983-952a-7bf869360b62">
+
+</p>
+
 + Fuseware-cli is a powerful command-line interface tool designed to scan your software dependencies and identify any malicious or vulnerable components, ensuring a secure development environment.
 
 ## Installation
