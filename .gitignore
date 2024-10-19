@@ -33,7 +33,6 @@ include/
 # CMake files (if using CMake)
 CMakeFiles/
 CMakeCache.txt
-Makefile
 
 # Other files to ignore
 *.tgz
