@@ -1,0 +1,42 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled binary files
+fuseware-cli
+*.exe
+*.out
+
+# Build directories
+/build/
+bin/
+obj/
+
+# Dependency directories
+/lib/
+vendor/
+include/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# IDE and Editor specific files
+*.swp
+*.swo
+*.DS_Store
+*.vscode/
+.idea/
+
+# CMake files (if using CMake)
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# Other files to ignore
+*.tgz
+*.tar.gz
+*.zip
+*.tar
