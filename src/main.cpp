@@ -1,15 +1,32 @@
+/*
+ * Copyright 2024 Fuseware, Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 #include <iostream>
 #include <string>
+using namespace std;
 
 // Function to display help information
 void showHelp() {
-    std::cout << "Fuseware CLI Tool" << std::endl;
-    std::cout << "Usage: fuseware [command] [options]" << std::endl;
-    std::cout << "Commands:" << std::endl;
-    std::cout << "  scan         Scan for dependencies" << std::endl;
-    std::cout << "  check        Check for vulnerabilities" << std::endl;
-    std::cout << "  update       Update dependencies" << std::endl;
-    std::cout << "  help         Show this help message" << std::endl;
+    cout << "Fuseware CLI Tool" << endl;
+    cout << "Usage: fuseware [command] [options]" << endl;
+    cout << "Commands:" << endl;
+    cout << "  scan         Scan for dependencies" << endl;
+    cout << "  check        Check for vulnerabilities" << endl;
+    cout << "  update       Update dependencies" << endl;
+    cout << "  help         Show this help message" << endl;
 }
 
 // Main function
@@ -25,17 +42,17 @@ int main(int argc, char* argv[]) {
     // Command handling
     if (command == "scan") {
         
-        std::cout << "Scanning for dependencies..." << std::endl;
+        cout << "Scanning for dependencies..." << endl;
     } else if (command == "check") {
         
-        std::cout << "Checking for vulnerabilities..." << std::endl;
+        cout << "Checking for vulnerabilities..." << endl;
     } else if (command == "update") {
 
-        std::cout << "Updating dependencies..." << std::endl;
+        cout << "Updating dependencies..." << endl;
     } else if (command == "help") {
         showHelp();
     } else {
-        std::cerr << "Error: Unknown command '" << command << "'. Use 'fuseware help' for usage information." << std::endl;
+        cerr << "Error: Unknown command '" << command << "'. Use 'fuseware help' for usage information." << endl;
         return 1;
     }
 

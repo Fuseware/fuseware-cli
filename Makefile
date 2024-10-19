@@ -34,4 +34,4 @@ clean:
 uninstall:
 	rm -f $(INSTALL_DIR)/fuseware
 
-.PHONY: all clean
+.PHONY: all clean 
