@@ -31,13 +31,12 @@ void showHelp() {
 
 // Main function
 int main(int argc, char* argv[]) {
-    // Check if no arguments are provided
     if (argc < 2) {
-        std::cerr << "Error: No command provided. Use 'fuseware help' for usage information." << std::endl;
+        cerr << "Error: No command provided. Use 'fuseware help' for usage information." << endl;
         return 1;
     }
 
-    std::string command = argv[1];
+    string command = argv[1];
 
     // Command handling
     if (command == "scan") {
